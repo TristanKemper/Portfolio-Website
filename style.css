@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Horizon;
+    src: url(../Fonts/Horizon.otf);
+}
+
+@font-face {
+    font-family: Agrandir;
+    src: url(../Fonts/Agrandir-Regular.otf);
+}
+
+.horizonfont {
+    font-family: 'Horizon';
+}
+
+.agrandirfont {
+    font-family: 'Agrandir';
+}
+
+body {
+    background-image: linear-gradient(to bottom, #71816d, #454b37, #3f3f3f);
+    color: white;
+}
+
+.navstyling {
+    background: transparent;
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 2px 4px black;
+}
+
+.flexfix {
+    display: flex;
+    justify-content: end;
+}
+
+.hero-image {
+    background-image: url("../Images/temp.png");
+    height: 100%;
+
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: 0 2px 6px black;
+}
+
+.hero-text {
+    text-shadow: 1px 0px 5px black;
+}
+
+.profilestyling {
+    box-shadow: 4px 4px 8px black;
+}
+
+.aboutmebackground {
+    background-color: #a4ab8d;
+    box-shadow: 0 2px 6px black;
+}
+
+.videobackground {
+    background-color: black;
+}
+.skillslist > div {
+    background-color: #71816d;
+    margin-bottom: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px black;
+}
+
+@media only screen and (max-width: 992px) {
+    .flexfix {
+        justify-content: start;
+    }
+
+    .profilestyling {
+        display: none;
+    }
+}
+
+.outlinered {
+    border: red solid 2px;
+}
