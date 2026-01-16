@@ -11,121 +11,197 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top navstyling horizonfont">
-        <div class="container-fluid">
-            <a class="navbar-brand d-flex" href="#">Tristan Kemper</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark py-3 fixed-top navstyling horizonfont">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex" href="index.html">Tristan Kemper</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse flexfix" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse flexfix" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projectspage.html">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <div class="container-fluid hero-image d-flex justify-content-center align-items-center pt-5 horizonfont" id="backtotop">
+            <div class="hero-text py-5 justify-content-end">
+                <h1 class="pt-5 mt-5">Tristan Kemper</h1>
+                <h2 class="text-end pb-5">Portfolio</h2>
             </div>
         </div>
-    </nav>
 
-    <div class="container-fluid hero-image d-flex justify-content-center align-items-center pt-5 horizonfont">
-        <div class="hero-text py-5 justify-content-end">
-            <h1 class="pt-5 mt-5">Tristan Kemper</h1>
-            <h2 class="text-end pb-5">Portfolio</h2>
-        </div>
-    </div>
-
-    <div class="container-fluid pt-3 pb-5">
-        <div class="row d-flex justify-content-center">
-            <div class="col-3">
-                <img src="../Images/ProfilePicture.png" alt="Profile Picture"
-                    class="img-fluid rounded-circle mt-4 profilestyling">
-            </div>
-            <div class="col-lg-8 col-11 mt-4 p-3 aboutmebackground">
-                <h2 class="horizonfont">About Me</h2>
-                <p class="agrandirfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid videobackground d-flex justify-content-center py-4">
-        <div class="row">
-            <div class="col-lg-6 col-11">
-                <h2 class="horizonfont">Skills</h2>
-                <p class="agrandirfont">
-                    The thing with skills are that they can be listed in many ways, ratings from 1-10, stars, or just
-                    plain text.
-                    I like to keep it a bit more simple as skills can't simply be rated on a scale.
-                    So I'm gonna do it differently, I will list my skills and with them a 1 - 5,
-                    1 being having only a few principles down and 5 being able to make full projects with them and being
-                    very comfortable with them.
-                </p>
-            </div>
-            <div class="col-lg-4 col-11 ms-lg-auto text-lg-start horizonfont">
-                <div class="row skillslist column-gap-3 ps-lg-0 ps-3">
-                    <div class="col-lg-10 col-5">Unity</div>
-                    <div class="col-lg-10 col-5">Unreal</div>
-                    <div class="col-lg-10 col-5">C#</div>
-                    <div class="col-lg-10 col-5">HTML & CSS</div>
+        <!-- About Me & Profile Picture -->
+        <div class="container-fluid pt-3 pb-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-3">
+                    <img src="../Images/ProfilePicture.png" alt="Profile Picture"
+                        class="img-fluid rounded-circle mt-4 profilestyling">
+                </div>
+                <div class="col-lg-8 col-11 mt-4 p-3 aboutmebackground">
+                    <h2 class="horizonfont">About Me</h2>
+                    <p class="agrandirfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container justify-content-center">
-        <div class="row d-flex justify-content-center py-4">
-            <div class="col-lg-8">
-                <h2 class="horizonfont">Projects</h2>
-                <p class="agrandirfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-        </div>
-        <div class="row pb-5">
-            <div class="col mx-auto">
-                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-
-                        <div class="carousel-item active">
-                            <div class="card w-50 mx-auto carousel-img">
-                                <img src="Images/pexels-alfonso-escalante-2533092.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="card w-50 mx-auto carousel-img">
-                                <img src="Images/pexels-berend-de-kort-1452701.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <p class="card-text">Some quick example text.</p>
-                                </div>
-                            </div>
-                        </div>
-
+        <!-- Skills Section -->
+        <div class="container-fluid videobackground d-flex justify-content-center py-4">
+            <div class="row">
+                <div class="col-lg-6 col-11">
+                    <h2 class="horizonfont">Skills</h2>
+                    <p class="agrandirfont">
+                        The thing with skills are that they can be listed in many ways, ratings from 1-10, stars, or
+                        just
+                        plain text.
+                        I like to keep it a bit more simple as skills can't simply be rated on a scale.
+                        So I'm gonna do it differently, I will list my skills and with them a 1 - 5,
+                        1 being having only a few principles down and 5 being able to make full projects with them and
+                        being
+                        very comfortable with them.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-11 ms-lg-auto text-lg-start horizonfont">
+                    <div class="row skillslist column-gap-3 ps-lg-0 ps-3">
+                        <div class="col-lg-10 col-5 ">Unity <span>5/5</span></div>
+                        <div class="col-lg-10 col-5">Bootstrap <span>4/5</span></div>
+                        <div class="col-lg-10 col-5">C# <span>3/5</span></div>
+                        <div class="col-lg-10 col-5">HTML & CSS <span>4/5</span></div>
                     </div>
-
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
             </div>
         </div>
 
-    </div>
+        <!-- Projects Carousel Text -->
+        <div class="container justify-content-center">
+            <div class="row d-flex justify-content-center py-4">
+                <div class="col-lg-8 text-center">
+                    <h2 class="horizonfont">Projects</h2>
+                    <p class="agrandirfont">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                        tempor
+                        incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+
+            <!-- Carousel Content -->
+            <div class="row pb-5">
+                <div class="col mx-auto">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <div class="card w-50 mx-auto carousel-img cardstyling">
+                                    <img src="../Images/BolhuisShowcase.png" class="card-img-top imagesizefix"
+                                        alt="Bolhuis Website Showcase">
+                                    <div class="card-body">
+                                        <h2 class="horizonfont">Bolhuis Website</h2>
+                                        <p class="card-text agrandirfont">Even though HTML, CSS and Bootstrap aren't my strong suits;
+                                            i managed to make this website in a week for a nursery.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus hic libero delectus.</p>
+                                        <h5 class="horizonfont"><span class="badge badgestyling">HTML & CSS</span> <span class="badge badgestyling">Bootstrap</span></h5>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card w-50 mx-auto carousel-img cardstyling">
+                                    <img src="../Images/ComingSoonTemp.png" class="card-img-top imagesizefix" alt="...">
+                                    <div class="card-body">
+                                        <h2 class="horizonfont">Coming Soon</h2>
+                                        <p class="card-text agrandirfont">When i start learning Unity3d i will start on my own game
+                                            which i'm hoping to be a mascot horror, i'm already writing stuff here and
+                                            there but to actually start off i will first need my base layer of
+                                            knowledge.</p>
+                                            <h5 class="horizonfont">
+                                                <span class="badge badgestyling">Unity 3d</span>
+                                                <span class="badge badgestyling">C#</span>
+                                            </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Previous and Next Controls -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="container-fluid videobackground ">
+            <div class="row d-flex justify-content-center py-4">
+                <div class="col-lg-7 col-11">
+                    <h2 class="horizonfont text-center">Contact Me</h2>
+                    <form action="" class="p-4 mt-2">
+                        <div class="row">
+                            <div class="col-lg-6 col-12">
+                                <label for="firstname" class="horizonfont">First Name:</label>
+                                <input type="text" id="firstname" name="firstname" class="agrandirfont">
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <label for="lastname" class="horizonfont">Last Name:</label>
+                                <input type="text" id="lastname" name="lastname" class="agrandirfont">
+                            </div>
+                        </div>
+
+                        <label for="email" class="horizonfont pt-2">Email:</label>
+                        <input type="email" id="email" name="email" class="agrandirfont">
+
+                        <label for="message" class="horizonfont pt-2">Message:</label>
+                        <textarea id="message" name="message" class="agrandirfont"></textarea>
+
+                        <input type="submit" value="Submit" class="horizonfont mt-2">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container-fluid footerstyling pt-4 pb-2">
+            <div class="row d-flex">
+                <div class="col-lg-4">
+                    <h2 class="horizonfont">Navigation</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#backtotop" class="footertextfix agrandirfont">Back to top</a></li>
+                        <li><a href="projectspage.html" class="footertextfix agrandirfont">Projects</a></li>
+                </div>
+                <div class="col-lg-4 text-end ms-auto">
+                    <h2 class="horizonfont">Socials</h2>
+                    <p class="agrandirfont">Coming Soon</p>
+            </div>
+            <p class="agrandirfont text-center">Website developed by Tristan Kemper</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
